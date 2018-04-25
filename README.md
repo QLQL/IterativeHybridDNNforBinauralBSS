@@ -6,7 +6,7 @@ Paper in ICASSP 2018 Calgary, Canada
 An iterative deep neural network (DNN)-based binaural source separation scheme, for recovering two concurrent speech signals in a room environment. Besides the commonly-used spectral features, the DNN also takes non-linearly wrapped binaural spatial features as input, which are refined iteratively using parameters estimated from the DNN output via a feedback loop. Different DNN structures have been tested, including a classic multilayer perception regression architecture as well as a new hybrid network with both convolutional and densely-connected layers. 
 
 ******************************************************************************************
-This code is implemented in Python, using [Keras](https://keras.io/) with [Theano](http://deeplearning.net/software/theano/) backend.
+This code is implemented in Python, using [Keras](https://keras.io/) with [Theano](http://deeplearning.net/software/theano/) backend where "image_data_format": "channels_first" was set.
 
 
 ## Data preparation
